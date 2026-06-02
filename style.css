@@ -1,13 +1,14 @@
 /* Estilos gerais para a página */
 body {
     font-family: sans-serif;
-    background-color: #f0f2f5;
+    background-color: #ff0000ae;
     color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* O contêiner principal que centraliza nosso conteúdo */
@@ -22,11 +23,11 @@ body {
 }
 
 h1 {
-    color: #007bff;
+    color: #ff0000;
 }
 
 p {
-    color: #6c757d;
+    color: #4d5358;
     margin-bottom: 20px;
 }
 
@@ -41,10 +42,11 @@ p {
     line-height: 1.5;
     box-sizing: border-box; /* Garante que o padding não aumente a largura total */
     resize: vertical; /* Permite que o usuário redimensione a altura */
+    color: #000000;
 }
 
 #blocoDeNotas:focus {
     outline: none;
-    border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    border-color: #ff0000;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
 }
